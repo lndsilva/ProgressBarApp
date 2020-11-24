@@ -22,7 +22,7 @@
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
         android:layout_gravity="center_horizontal"
-        android:visibility="invisible" />
+        android:visibility="gone" />
 
     <ProgressBar
         android:id="@+id/idProgressBarHorizontal"
@@ -30,7 +30,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
-        android:max="100" />
+        android:max="100"
+        android:progress="10"
+        android:progressTint="#FF5722"
+        android:min="0"/>
 
     <Button
         android:id="@+id/btnStart"
